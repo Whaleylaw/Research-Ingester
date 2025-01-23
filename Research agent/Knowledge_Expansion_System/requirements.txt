@@ -1,0 +1,28 @@
+# Core dependencies
+langchain>=0.1.0  # For LLM interactions
+openai>=1.0.0     # OpenAI API integration
+python-dotenv>=1.0.0  # Environment variable management
+
+# Document processing
+PyPDF2>=3.0.0    # PDF processing
+pytesseract>=0.3.10  # OCR for images
+moviepy>=1.0.3    # Video processing
+SpeechRecognition>=3.10.0  # Audio processing
+beautifulsoup4>=4.12.0  # Web scraping
+requests>=2.31.0  # HTTP requests
+
+# Database and storage
+neo4j>=5.14.0    # Graph database for Zettelkasten
+elasticsearch>=8.11.0  # Full-text search
+python-magic>=0.4.27  # File type detection
+
+# API and web interface
+fastapi>=0.109.0  # API framework
+uvicorn>=0.27.0   # ASGI server
+pydantic>=2.5.0   # Data validation
+
+# Testing and development
+pytest>=7.4.0
+black>=23.12.0
+isort>=5.13.0
+flake8>=7.0.0 
